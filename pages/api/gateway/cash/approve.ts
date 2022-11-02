@@ -12,16 +12,22 @@ type Data = {
   data?: any;
 };
 
+console.info("----- Y ESTOO");
 const request = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
+  console.info("Entramos aca");
   if (req.method !== "POST") {
     throw new Error("Only POST method is allowed");
   }
 
+  console.info("SEGUIMOS");
   try {
     const requestData = CreateCashRequestSchema.parse(req.body);
     const { orderId } = requestData;
 
+    console.info("ORDEN?");
     const order = await getOrder(orderId);
+
+    console.dir(order);
 
     if (!order) {
       throw new Error("Order ID doesnt exist");
@@ -29,6 +35,7 @@ const request = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
 
     const code = await addCode(orderId);
 
+    console.info(code);
     await updateOrder(orderId, {
       status: "completed",
       pos: "request_payment",
