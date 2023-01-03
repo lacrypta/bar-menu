@@ -39,7 +39,7 @@
     "@types/mercadopago": "^1.5.8",
     "@types/node": "^18.11.9",
     "@types/nodemailer": "^6.4.6",
-    "@types/react": "^18.0.20",
+    "@types/react": "^18.0.26",
     "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "eslint": "^8.31.0",
