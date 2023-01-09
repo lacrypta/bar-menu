@@ -278,12 +278,12 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@ethereumjs/common@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@ethereumjs/common/-/common-3.0.1.tgz#c2dbd444d96e4014c7f7befd0529b5c1a02f590b"
-  integrity sha512-AHsJB7ydfb7TFCT7ORGY0tRiKkAylWZd/Qt6Lmc3Oycs66bMeE1JuYHbc0U6qsAZKZMFsUmL/UJDT/w7Z0cytw==
+"@ethereumjs/common@^3.0.1", "@ethereumjs/common@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ethereumjs/common/-/common-3.0.2.tgz#72be343c9d359b8890e0bb91bd3dc3d8e210087e"
+  integrity sha512-N8fpT5uDvxOE5dIaPQZWzJaBRkRWrCXv63MONEn5ikp/J9mWFc53VUjb3GqtIYHRgg9nP81TXmtnvQJz1IuTiw==
   dependencies:
-    "@ethereumjs/util" "^8.0.0"
+    "@ethereumjs/util" "^8.0.3"
     crc-32 "^1.2.0"
 
 "@ethereumjs/rlp@^4.0.0", "@ethereumjs/rlp@^4.0.0-beta.2":
@@ -302,12 +302,13 @@
     ethereum-cryptography "^1.1.2"
     ethers "^5.7.1"
 
-"@ethereumjs/util@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@ethereumjs/util/-/util-8.0.0.tgz#52363fe29113c0ee70c8e9df20bc713e00089720"
-  integrity sha512-Zz/Ovar0VU/CaYHLvigBTjG5PmkG0OzjvRjjoXRJbJcdWJoTCN2N4BYgoCBOZomKjaAT4ABpQ7wer6ZFOglvjg==
+"@ethereumjs/util@^8.0.0", "@ethereumjs/util@^8.0.3":
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/@ethereumjs/util/-/util-8.0.3.tgz#410c2dc8c6d519b29f1a471aa9b9df9952e41239"
+  integrity sha512-0apCbwc8xAaie6W7q6QyogfyRS2BMU816a8KwpnpRw9Qrc6Bws+l7J3LfCLMt2iL6Wi8CYb0B29AeIr2N4vHnw==
   dependencies:
     "@ethereumjs/rlp" "^4.0.0-beta.2"
+    async "^3.2.4"
     ethereum-cryptography "^1.1.2"
 
 "@ethersproject/abi@5.7.0", "@ethersproject/abi@^5.7.0":
@@ -2393,6 +2394,11 @@ async-retry@^1.3.3:
   integrity sha512-wfr/jstw9xNi/0teMHrRW7dsz3Lt5ARhYNZ2ewpadnhaIp5mbALhOAP+EAdsC7t4Z6wqsDVv9+W6gm1Dk9mEyw==
   dependencies:
     retry "0.13.1"
+
+async@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.2.4.tgz#2d22e00f8cddeb5fde5dd33522b56d1cf569a81c"
+  integrity sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==
 
 asynckit@^0.4.0:
   version "0.4.0"
