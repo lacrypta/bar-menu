@@ -32,7 +32,7 @@
     "react-qr-code": "^2.0.8",
     "react-sdk-mercadopago": "^1.1.1",
     "wagmi": "0.6.8",
-    "zod": "^3.19.1"
+    "zod": "^3.20.6"
   },
   "devDependencies": {
     "@types/debug": "^4.1.7",
